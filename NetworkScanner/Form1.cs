@@ -14,6 +14,7 @@ using System.Management;
 using System.Diagnostics;
 using Microsoft.Win32;
 using System.IO;
+// using MyIP;
 
 //Author: Zachary Reese
 //eID: 900893107
@@ -293,7 +294,8 @@ namespace NetworkScanner
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            MyIPClass myip = new MyIPClass();
+            myip.getMyIP();
         }
 
         private void listVAddr_SelectedIndexChanged(object sender, EventArgs e)
