@@ -1,5 +1,48 @@
 # Network Scanner
->Subnet scanner in C# that pings a given IP range
+
+> Subnet scanner in C# that pings a given IP range
+
+This is a fork of zacharyreese on github.  This code is being used as a base for a new app to monitor the current LAN.  
+
+
+
+TODO:
+
+1) Scan current IP address, gateway.
+
+2) Determine CIDR or subnet mask.
+
+3) Ping every IP in LAN recording any response, then getting host name.
+
+4) Store all ping response IP's into file for future ping checks.
+
+5) Display in green or red the ping checks on a regular check, maybe 10 minutes.
+
+6) Put in threads for quick responses.
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------
+
+<u>**Original README.md from zacharyreese.**</u>
 
 This was my final project for my Computer Security Course (CSCI 5431). I developed this application using Visual Studio. This project exposed a severe security flaw in my University network, where I was able to ping the IP range of the University, and access very sensitive data that was not properly secured such as University databases, donor excel files, police department body cam library and arrest records, and many other critical data. I was able to gain access and create, edit, and potentially delete this data. After creating a report on what I had discovered, I went to the university to present my findings. After presenting, I worked with the top IT and CS administrators of the school's network to make sure that the exposed machines were properly secured so that this type of security vulnerability would be closed.
 
@@ -22,12 +65,12 @@ Add this project to Visual Studio and run
 ## Release History
 
 * 1.0
-    * Initial upload
+  * Initial upload
 
 ## Meta
 
 * Authors:
-    * Zachary Reese
+  * Zachary Reese
 
 Zachary Reese – zactreese@gmail.com
 
@@ -40,6 +83,3 @@ Zachary Reese – zactreese@gmail.com
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
-
-
-
